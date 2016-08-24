@@ -1,11 +1,7 @@
 boolean fridgeIsOpen = false;
 void setup()
 {
-  size(400,400);
-
-}
-void draw()
-{
+    size(400,400);
 	if((mousePressed) && (fridgeIsOpen == false)) {
 		fridgeIsOpen = true;
 	}
@@ -13,6 +9,11 @@ void draw()
 	if((mousePressed) && (fridgeIsOpen == true)) {
 		fridgeIsOpen = false;
 	}
+
+}
+void draw()
+{
+
 
 	background(242, 242, 210);
 	floor();
