@@ -54,6 +54,7 @@ void fridgeOpened()
 	rect(75, 25, 250, 325, 20);
 	stroke(0);
 	line(75,125,325,125);
+	//OpenDoor
 
 	//inside of fridge
 	fill(90, 255, 212);
