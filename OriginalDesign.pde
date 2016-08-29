@@ -91,11 +91,21 @@ void fridgeOpened()
 	endShape(CLOSE);
 	//inside of fridge
 	fill(143, 255, 255);
-	strokeWeight(1.75);
+	strokeWeight(1.25);
 	rect(85, 135, 230, 200, 20);
 	fill(120, 220, 220);
 	rect(125, 175, 150, 120);
-	line(85, 135, 125, 175);
+	line(90, 140, 125, 175);
+	line(310, 140, 275, 175);
+	line(315, 325, 275, 295);
+	line(90, 325, 125, 295);
+
+	//orange
+	fill(255,0,0);
+	ellipse(180, 310, 25, 25);
+	fill(0,250,0);
+	ellipse(180, 301, 5, 10);
+
 
 
 
